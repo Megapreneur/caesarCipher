@@ -1,3 +1,6 @@
+from art import logo
+
+
 def caesar(start_text, shift_amount, direction_type):
     end_text = ""
     for char in start_text:
@@ -19,6 +22,8 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
             'q', 'r', 's', 't', 'u',
             'v', 'w', 'x', 'y', 'z']
 
+
+print(logo)
 should_encode = True
 
 while should_encode:
@@ -32,4 +37,3 @@ while should_encode:
     result = input("Type 'yes' if you want to go again. Otherwise type 'no'. \n")
     if result == "no":
         should_encode = False
-
